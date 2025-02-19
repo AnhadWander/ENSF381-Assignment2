@@ -1,0 +1,71 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    color:#004080
+  }
+  
+  /* Header styling */
+header {
+    background-color: #004080;
+    color: white;
+    padding: 20px;
+    margin: 0;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+  }
+  
+.navigation {
+    display: flex;                 /* Enable flex container */
+    justify-content: center;       /* Center horizontally */
+    align-items: center;           /* Center vertically (if there's enough height) */
+    background-color: #003366;     /* Dark blue background */
+    color: #fff;                   /* White text */
+    padding: 10px;                 /* Spacing around the content */
+  }
+  
+.navigation a {
+    text-decoration: none;         /* Remove underline */
+    color: #fff;                   /* White text to match the container */
+  }
+
+form {
+    display: flex;                  /* Enable Flexbox */
+    flex-direction: column;         /* Stack form & link vertically */
+    align-items: center;            /* Center items horizontally */
+    background-color: #d4d4d4;      /* Light gray */
+    margin: 0 150px 0 150px;                /* 0 top/bottom, 150px left/right */
+    padding: 30px;                  /* Space inside the container */
+    border-radius: 30px;            /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Subtle shadow */
+}
+footer {
+    background-color: #004080;
+    color: white;
+    padding: 20px;
+    margin: 0;
+    align-items: center;
+  }
+
+input[type="text"],
+input[type="password"] {
+    background-color: lightyellow; /* Light yellow background */
+    padding: 10px;                /* Padding for spacing */
+    border-radius: 5px;           /* Rounded corners */
+    border: 3px solid darkgrey;   /* 3px dark grey border */
+    width: 200px
+    
+  }
+
+a > button[type="button"] {
+    background-color: #008000; /* Green */
+    color: #fff;              /* White text */
+    padding: 10px 20px;       /* Adjust as needed */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+ }
+
+a > button[type="button"]:hover {
+    background-color: #006600; /* Darker green */
+}
