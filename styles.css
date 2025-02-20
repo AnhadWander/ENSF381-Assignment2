@@ -122,20 +122,25 @@ select {
     border-radius: 10px;
 }
 
+.tile-pending {
+  background-color: #e6f2ff;; 
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  padding: 20px;
+  margin: 15px;
+  text-align: center;
+  border-radius: 10px;
+}
+
 .course-img{
-  height: 210px;
-  width: 310px;
+  height: 275px;
+  width: 375px;
   border-radius: 0px;
 }
 
-.course-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.course-container td {
-    width: 30%;
+.course-img-pending{
+  height: 390px;
+  width: 585px;
+  border-radius: 0px;
 }
 
 .question {
@@ -210,6 +215,24 @@ table {
   border:1px solid white;
 }
 
+.table-crs{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  
+  width: 100%;
+  margin: auto;
+}
+
+.table-pending{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  width: 100%;
+  margin: auto;
+}
+
 .t_main_h{
   background-color: #4CAF50;
   font-size: 24px;
@@ -217,7 +240,7 @@ table {
 }
 
 th {
-  background-color: #d4d4d4;
+  background-color: white;
   color: black;
   font-size: 18px;
 }
